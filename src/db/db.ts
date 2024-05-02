@@ -1,9 +1,10 @@
-interface Employee {
+export interface Employee {
   id: number;
   name: string;
   managerId: number;
 }
 
+// I gave Jamie a managerId of 0 to represent the CEO
 export const employees: Employee[] = [
   { id: 100, name: "Alan", managerId: 150 },
   { id: 220, name: "Martin", managerId: 100 },

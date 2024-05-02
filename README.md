@@ -1,5 +1,14 @@
 # React + TypeScript + Vite
 
+
+Used the React + TypeScript + Vite template to create a new project.
+I wanted to get something up and going quickly.
+1. Create a project with a template
+2. Add in DB that is needed with bad data we want to test against
+3. Display the data in a table
+
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
