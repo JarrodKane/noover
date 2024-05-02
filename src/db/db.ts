@@ -33,4 +33,7 @@ export const employeesBroken: Employee[] = [
   {name: 'NoId', managerId: 150},
   // @ts-expect-error needed for a bad object
   {},
+  { id: 20, name: "BadManager", managerId: 2322 },
+  { id: 231, name: "BadEmp", managerId: 20 },
+  {id: 232, name: "Ceo2", managerId: 0},
 ];

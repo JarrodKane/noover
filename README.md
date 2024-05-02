@@ -12,7 +12,7 @@ I wanted to get something up and going quickly.
 ## Assumptions
 1. The order of the rows I did by the order of the data in the array. I did not sort the data by the id.
 2. I did not collect any of the bad data, I just removed it from the table.
-3. There always has to be 1 ceo in the table.
+3. There always has to be at least 1 ceo in the table, otherwise everyone will have a bad manager link and never be displayed
 
 
 ## Project setup
