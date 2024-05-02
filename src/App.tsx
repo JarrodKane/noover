@@ -1,15 +1,15 @@
-// import { useState } from 'react'
 import {Table} from './components/table'
 import './App.css'
 import {employeesBroken, employees} from './db/db'
 
 function App() {
-  // const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>Table</h1>
+      <h1>Employees</h1>
       <Table list={employees} />
+      <h1>Broken Employees</h1>
+      <Table list={employeesBroken} />
     </>
   )
 }
